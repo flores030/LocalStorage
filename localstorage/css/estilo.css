@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(165, 141, 211);
+    margin: 0;
+    font-family: arial;
+    
+}
+
+header{
+    background-color: rgb(153, 119, 185);
+    padding: 2rem;
+}
+
+header h1 {
+    color:  rgb(49, 17, 109);;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+nav{
+    background-color: rgb(115, 88, 165);
+    padding: 1rem;
+}
+
+li a {
+    color:rgb(36, 0, 66);
+    text-decoration: none;
+    background-color:rgb(159, 126, 221);
+    border-radius: 5.5px;
+    padding: 0.5rem; 
+
+}
+li a:hover{
+    background-color: rgb(211, 180, 240);
+}
+
+ul li{
+    padding: 1rem;
+    list-style: none; 
+}
+
+nav ul{
+    padding: 0; 
+    display:flex;
+
+}
+
+.container{
+    
+    margin: auto;
+    margin-top:2rem;
+    max-width: 60%;
+    background-color: rgb(115, 77, 141);
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 13px;
+    
+}
+
+.container h3{
+    text-align: center;
+    color:rgb(37, 2, 63);
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+    padding-bottom: 0.5rem;
+    
+}
+
+.container input{
+    margin-bottom: 0.7rem;
+    border:2px solid rgb(61, 3, 109);
+    border-radius: 10px;
+    padding: 0.3rem;
+    outline: none;
+    
+}
+
+.container input :hover{
+    background-color: rgb(211, 180, 240);
+}
+
+.container button{ 
+    background-color: rgb(211, 180, 240);
+    font-weight: bold;
+    padding: 0.5rem; 
+    border-radius: 25px;
+    cursor:pointer; 
+}
+
+.container button:hover{ 
+    background-color: rgb(37, 2, 63);
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+
+
+}
+
+footer{
+    margin-top: 2rem;
+    background-color: rgb(100, 82, 116);
+    padding: 9px;
+}
